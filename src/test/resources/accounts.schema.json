@@ -13,11 +13,11 @@
     "additionalProperties": false,
     "properties": {
       "id": {
-        "type": "integer"
+        "type": "string"
       },
       "name": {
         "type": "string",
-        "minLength": 10
+        "minLength": 1
       },
       "number": {
         "type": "string",
